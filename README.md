@@ -14,8 +14,7 @@ git branch --set-upstream-to origin/master
 
 
 
-# staging is git add 
-# to ignote changes to : 
+# staging is git add ; to ignote changes to : 
 git restore . ( before staging)
 git reset ( after staging )
 

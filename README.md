@@ -28,7 +28,7 @@ git remote add origin https://<urkl>.git
 https://stackoverflow.com/questions/5363857/delete-all-files-and-history-from-remote-git-repo-without-deleting-repo-itself
 
 
-#remove url : 
+# remove url : 
 git remote remove origin
 
 

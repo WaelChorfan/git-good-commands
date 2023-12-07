@@ -1,3 +1,9 @@
+# the true git init 
+rm -rf .git
+
+# the initial  git init 
+git init 
+
 # git-good-commands
 git update-index --assume-unchanged  <file>
 git diff --raw --staged

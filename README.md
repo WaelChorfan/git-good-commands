@@ -25,10 +25,18 @@ git remote add origin https://<urkl>.git
 
 # what to do because no deletion for repo:
 https://stackoverflow.com/questions/5363857/delete-all-files-and-history-from-remote-git-repo-without-deleting-repo-itself
+git init 
+echo "This is the README" > README.md
+git add "Readme.md"
+git commit -m "Add README.md (initial commit)"
+git push origin --mirror
+
 
 
 # remove url : 
 git remote remove origin
+
+
 
 
 

@@ -43,6 +43,13 @@ git push origin --mirror
 git remote remove origin
 
 
+# Create a new branch with current changes 
+# First, save your work in progress!
+git stash
+# Then, one command to create *and* switch to a new branch
+git switch -f -c topic/wip HEAD~3
+
+
 
 
 

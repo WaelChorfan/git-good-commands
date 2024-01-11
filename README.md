@@ -49,8 +49,10 @@ git stash
 # Then, one command to create *and* switch to a new branch
 git switch -f -c topic/wip HEAD~3
 
-
-
+#good links
+# vs code search (activate regex as well)
+To apply logical and (?=.*word1)(?=.*word2)(?=.*word3)
+To apply logical or (word1)|(word2)|(word3)
 
 
 

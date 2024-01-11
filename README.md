@@ -54,5 +54,13 @@ git switch -f -c topic/wip HEAD~3
 To apply logical and (?=.*word1)(?=.*word2)(?=.*word3)
 To apply logical or (word1)|(word2)|(word3)
 
+#delay function in apex
+
+    public static void delayInMilliSeconds(Integer ms) {
+        Datetime start = System.Now();
+        while (System.Now().getTime() < start.getTime() + ms) {
+        }
+    }
+
 
 

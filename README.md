@@ -62,5 +62,9 @@ To apply logical or (word1)|(word2)|(word3)
         }
     }
 
-
+# get rec type id by sobject and field name
+   public static Id getRecordTypeId(String sObjectName, String recordTypeName) {
+        Id recordTypeId = Schema.getGlobalDescribe().get(sObjectName).getDescribe().getRecordTypeInfosByName().get(recordTypeName).getRecordTypeId();
+        return recordTypeId;
+    }
 

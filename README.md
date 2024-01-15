@@ -67,4 +67,6 @@ To apply logical or (word1)|(word2)|(word3)
         Id recordTypeId = Schema.getGlobalDescribe().get(sObjectName).getDescribe().getRecordTypeInfosByName().get(recordTypeName).getRecordTypeId();
         return recordTypeId;
     }
+# prettier install
 
+npm install --save-dev --save-exact prettier prettier-plugin-apex

@@ -70,3 +70,7 @@ To apply logical or (word1)|(word2)|(word3)
 # prettier install
 
 npm install --save-dev --save-exact prettier prettier-plugin-apex
+
+
+# apex class run tests 
+sf apex run test -n classA, classB , ...

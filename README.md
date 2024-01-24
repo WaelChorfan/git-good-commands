@@ -70,6 +70,13 @@ To apply logical or (word1)|(word2)|(word3)
 # prettier install
 
 npm install --save-dev --save-exact prettier prettier-plugin-apex
+ # java path for that
+  C:\\open_jdk-11.0.21.9-hotspot
+{
+  "salesforcedx-vscode-apex.java.home": "C:\\open_jdk-11.0.21.9-hotspot",
+  "salesforcedx-vscode-core.retrieve-test-code-coverage": true
+}
+
 
 
 # apex class run tests 

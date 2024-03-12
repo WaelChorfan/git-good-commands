@@ -77,6 +77,10 @@ npm install --save-dev --save-exact prettier prettier-plugin-apex
   "salesforcedx-vscode-core.retrieve-test-code-coverage": true
 }
 
+# pull remote branches 
+ git branch -a
+ 
+
 
 
 # apex class run tests 

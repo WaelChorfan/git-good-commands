@@ -85,3 +85,7 @@ npm install --save-dev --save-exact prettier prettier-plugin-apex
 
 # apex class run tests 
 sf apex run test -n classA, classB , ...
+
+
+#install prettier
+npm install --save-dev --save-exact prettier prettier-plugin-apex

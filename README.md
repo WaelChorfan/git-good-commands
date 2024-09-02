@@ -1,4 +1,7 @@
-#get latest changes 
+# fetch all branches
+for remote in `git branch -r`; do git branch --track ${remote#origin/} $remote; done
+
+# get latest changes
 git reset --hard HEAD && git clean -xffd && git pull
 
 # the true git init 

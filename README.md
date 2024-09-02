@@ -1,3 +1,6 @@
+#get latest changes 
+git reset --hard HEAD && git clean -xffd && git pull
+
 # the true git init 
 rm -rf .git
 

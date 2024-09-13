@@ -4,6 +4,9 @@ for remote in `git branch -r`; do git branch --track ${remote#origin/} $remote; 
 # get latest changes
 git reset --hard HEAD && git clean -xffd && git pull
 
+# merge and keep  their changes
+git merge --strategy-option theirs
+
 # the true git init 
 rm -rf .git
 

@@ -14,10 +14,15 @@ rm -rf .git
 git init 
 
 # git-good-commands
+
 git update-index --assume-unchanged  <file>
+
 git diff --raw --staged
+
 git log --pretty=oneline
+
 git reset --hard HEAD
+
 git pull --rebase
 
 git branch --set-upstream-to origin/master

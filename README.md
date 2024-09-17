@@ -1,11 +1,18 @@
-# fetch all branches
-for remote in `git branch -r`; do git branch --track ${remote#origin/} $remote; done
+
+# git-tag
+
+git tag -a v1.10.2 -m "KPFILMS-4645"
+git push origin v1.10.2
 
 # get latest changes
 git reset --hard HEAD && git clean -xffd && git pull
 
 # merge and keep  their changes
 git merge --strategy-option theirs
+
+# fetch all branches
+for remote in `git branch -r`; do git branch --track ${remote#origin/} $remote; done
+
 
 # the true git init 
 rm -rf .git
@@ -28,9 +35,7 @@ git pull --rebase
 git branch --set-upstream-to origin/master
 
 
- git tag -a v1.0.0 -m "migration api v1.0"
 
- git push origin v1.0.0
 
 
 

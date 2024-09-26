@@ -5,7 +5,7 @@ git tag -a v1.10.2 -m "KPFILMS-4645"
 git push origin v1.10.2
 
 # get latest changes
-git reset --hard HEAD && git clean -xffd && git pull
+git fetch origin fulluat && git reset --hard FETCH_HEAD && git clean -xffd && git pull
 
 # merge and keep  their changes
 git merge --strategy-option theirs
